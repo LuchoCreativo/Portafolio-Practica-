@@ -13,14 +13,24 @@ body{
     box-sizing: border-box;
 }
 
-.tituloDestaque{
-    color: #22D4FD;
+.header{
+    padding: 2% 0% 0% 15%;
 }
 
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__links{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #22D4FD;
+}
 .presentacion{
     display: flex; 
     align-items: center;
-    margin: 10% 20%;
+    padding: 7% 20%;
     justify-content: space-between;
 }
 
@@ -36,12 +46,18 @@ gap: 40px;
     font-family: "Krona One", sans-serif;
 }
 
+.tituloDestaque{
+    color: #22D4FD;
+}
+
 .presentacion__contenido__texto{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+
 .presentacion__enlaces{
     display: flex;
     justify-content: space-between;
@@ -75,7 +91,7 @@ gap: 40px;
 .presentacion__links:hover{
     background-color: #272727;
     cursor: pointer; /* Se suopone que cambia el cursor al estar encima */
-    /*padding: 2%;*/
+    padding: 5% ;
 }
 
 .footer{

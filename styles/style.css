@@ -8,8 +8,14 @@
     --color-contraste: #22D4FD;
     --color-hover: #272727; 
 
-    --font-texto: "Montserrat", sans-serif;
-    --font-titulo: "krona One", sans-serif;
+    --font-family-texto: "Montserrat", sans-serif;
+    --font-family-titulo: "krona One", sans-serif;
+    --font-size-texto: 1.5rem; /* 24px*/
+    --font-size-titulo: 2.25rem ; /*36px*/
+}
+
+html {
+  font-size: 16px; 
 }
 
 
@@ -34,7 +40,7 @@ body{
     gap: 80px;
 }
 .header__menu__links{
-    font-family: var(--font-texto);
+    font-family: var(--font-family-texto);
     font-weight: 600;
     font-style: normal;
     color: var(--color-contraste);
@@ -55,22 +61,19 @@ gap: 40px;
 }
 
 .presentacion__contenido__titulo{
-    font-size: 36px;
-    font-family: var(--font-titulo), sans-serif;
+    font-size: var(--font-size-titulo);
+    font-family: var(--font-family-titulo), sans-serif;
 }
 
 .presentacion__contenido__texto{
-    font-size: 24px;
-    font-family: var(--font-texto);
+    font-size: var(--font-size-texto);
+    font-family: var(--font-family-texto);
     font-weight: 400;
     font-style: normal;
 }
 .tituloDestaque{
     color: var(--color-contraste);
 }
-
-
-
 
 .presentacion__enlaces{
     display: flex;
@@ -82,8 +85,8 @@ gap: 40px;
 }
 
 .accede__a__redes{
-    font-family: var(--font-titulo);
-    font-size: 24px;
+    font-family: var(--font-family-titulo);
+    font-size: var(--font-size-texto);
     font-weight: 400;
 
 }
@@ -92,9 +95,9 @@ gap: 40px;
     text-align: center;
     padding: 21.5px 0px;
     border-radius: 8px;
-    font-family: var(--font-texto);
+    font-family: var(--font-family-texto);
     font-weight: 600;
-    font-size: 24px;
+    font-size: var(--font-size-texto);
     text-decoration: none;
     color: var(--color-texto);
     border: 2px solid var(--color-contraste);
@@ -110,10 +113,10 @@ gap: 40px;
 
 .footer{
     background-color: var(--color-contraste);
-    padding: 24px;
+    padding: var(--font-size-texto);
     color: var(--color-fondo);
     text-align: center;
-    font-family: var(--font-texto);
+    font-family: var(--font-family-texto);
     font-weight: 400;
 
 }

@@ -59,16 +59,17 @@ gap: 40px;
     font-family: var(--font-titulo), sans-serif;
 }
 
-.tituloDestaque{
-    color: var(--color-contraste);
-}
-
 .presentacion__contenido__texto{
     font-size: 24px;
     font-family: var(--font-texto);
     font-weight: 400;
     font-style: normal;
 }
+.tituloDestaque{
+    color: var(--color-contraste);
+}
+
+
 
 
 .presentacion__enlaces{

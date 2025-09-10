@@ -26,11 +26,12 @@ body{
     font-weight: 600;
     font-style: normal;
     color: #22D4FD;
+    text-decoration: none;
 }
 .presentacion{
     display: flex; 
     align-items: center;
-    padding: 7% 20%;
+    padding: 6% 20%;
     justify-content: space-between;
 }
 

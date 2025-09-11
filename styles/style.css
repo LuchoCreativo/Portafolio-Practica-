@@ -12,6 +12,8 @@
     --font-family-titulo: "krona One", sans-serif;
     --font-size-texto: 1.5rem; /* 24px*/
     --font-size-titulo: 2.25rem ; /*36px*/
+    
+    --width: 50%; 
 }
 
 html {
@@ -51,10 +53,11 @@ body{
     align-items: center;
     padding: 6% 20%;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .presentacion__contenido{
-width: 615px;
+width: var(--width);
 display: flex;
 flex-direction: column;
 gap: 40px;
@@ -91,7 +94,7 @@ gap: 40px;
 
 }
 .presentacion__links{
-    width: 378px;
+    width: var(--width);
     text-align: center;
     padding: 21.5px 0px;
     border-radius: 8px;
@@ -109,6 +112,10 @@ gap: 40px;
     background-color: var(--color-hover);
     cursor: pointer; /* Se suopone que cambia el cursor al estar encima */
     padding: 5% ;
+}
+
+.presentacion__imagen{
+    width: var(--width);
 }
 
 .footer{

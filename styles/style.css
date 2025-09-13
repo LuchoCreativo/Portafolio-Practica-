@@ -116,6 +116,8 @@ gap: 40px;
 
 .presentacion__imagen{
     width: var(--width);
+    display: flex;
+    align-items: flex-start;
 }
 
 .footer{
